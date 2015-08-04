@@ -16,6 +16,8 @@ gem 'coffee-rails', '~> 4.1.0'
 
 # Generator adminLTE
 gem 'adminlte-generators'
+# Gem Autentication Devise
+gem 'devise'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
