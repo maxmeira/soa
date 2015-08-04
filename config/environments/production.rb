@@ -79,10 +79,10 @@ Rails.application.configure do
 
   # Configuration Devise
   # config.action_mailer.default_url_options = { host: 'https://floating-anchorage-4144.herokuapp.com' }
-  config.action_mailer.default_url_options = { host: 'http://soaufba.herokuapp.com' }
+  # config.action_mailer.default_url_options = { host: 'http://soaufba.herokuapp.com' }
 
   # Configuration development and production Email
-  config.action_mailer.default_url_options = { :host => 'localhost:3000' }
+  config.action_mailer.default_url_options = { :host => 'soaufba.herokuapp.com' }
   config.action_mailer.delivery_method = :smtp
   config.action_mailer.smtp_settings = {
         address: "smtp.gmail.com",
