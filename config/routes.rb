@@ -4,6 +4,10 @@ Rails.application.routes.draw do
 
   root 'static_pages#home'
 
+  resources :users, only: [:show, :index]
+
+  resources :posts, only: [:create, :edit, :update, :destroy]
+
   get 'static_pages/help'
 
   get 'static_pages/about'
