@@ -18,6 +18,10 @@ gem 'coffee-rails', '~> 4.1.0'
 gem 'adminlte-generators'
 # Gem Autentication Devise
 gem 'devise'
+# Gem Simple Form
+gem 'simple_form'
+# Gem Auto Html
+gem 'auto_html'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
