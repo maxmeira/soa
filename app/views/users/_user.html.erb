@@ -1,0 +1,13 @@
+<div class="col-md-3">
+<div class="thumbnail">
+<%= link_to user_path(user.email) do %>
+	<h3>Profile</h3>
+<% end %>
+<div class="caption">
+<h3><%= user.email %></h3>
+<% if current_user %>
+<p>BOTÕES</p>
+<% end %>
+</div>
+</div>
+</div>
