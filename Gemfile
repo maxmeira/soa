@@ -22,6 +22,8 @@ gem 'devise'
 gem 'simple_form'
 # Gem Auto Html
 gem 'auto_html'
+# Gem Activities
+gem 'public_activity'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
