@@ -1,9 +1,12 @@
 class UsersController < ApplicationController
 
+<<<<<<< HEAD
   def index
     @users = User.where.not(id: current_user.id)
   end
 
+=======
+>>>>>>> users-devise
   def show
     @post = Post.new
     @posts = @user.posts.order('created_at DESC')
